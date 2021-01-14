@@ -22,7 +22,7 @@ export class ByRegionComponent implements OnInit {
       this.region=qp.region;
      });
      this.countries = this.httpService.getCountriesByRegion(this.region);
-     console.log(this.countries);
+    //  console.log(this.countries);
   }
 
 }
