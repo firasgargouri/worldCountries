@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "WorldCountries"
+    }
+  },
+  "defaultProject": "WorldCountries",
+  "cli": {
+    "analytics": "27aa3e62-d121-49b2-9167-b729b549cb8d"
+  }
 }

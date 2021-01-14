@@ -1,0 +1,16 @@
+<ul class="list-group">
+  <li
+    *ngFor="let region of regions"
+    (click)="selectRegion(region)"
+    class="list-group-item"
+  >
+    {{ region }}
+    <!-- <ul class="list-group">
+      <div *ngFor="let country of countries">
+        <li *ngIf="country.region == region" class="list-group-item">
+          {{ country.name }}
+        </li>
+      </div>
+    </ul> -->
+  </li>
+</ul>
