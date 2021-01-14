@@ -22,8 +22,8 @@ export class RegionsComponent implements OnInit {
   ngOnInit(): void {
     this.countries = this.httpService.getCountries();
     this.regions = this.httpService.getRegions();
-    console.log(this.countries);
-    console.log(this.regions);
+    // console.log(this.countries);
+    // console.log(this.regions);
   }
 
   selectRegion(region){

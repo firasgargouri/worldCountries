@@ -72,8 +72,8 @@ export class HttpService {
           country['region'],country['population'],country['area'],country['flag'],
           country['languages'][0]['name']+', '+country['languages'][0]['nativeName']))
         });
-        console.log(countries);
-        console.log(countries[0]);
+        // console.log(countries);
+        // console.log(countries[0]);
       },
     );
     return countr;

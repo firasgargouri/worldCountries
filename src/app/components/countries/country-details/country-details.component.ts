@@ -24,8 +24,7 @@ export class CountryDetailsComponent implements OnInit {
       this.countryName=qp.country;
     });
     this.country=this.httpService.getCountry(this.countryName);
-    this.country2=this.httpService.getCountry2(this.countryName);
-    console.log(this.country);
+    // console.log(this.country);
 
   }
 
